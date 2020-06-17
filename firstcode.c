@@ -1,10 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-    int count, first_term = 0, second_term = 1, next_term, i;
- 
-    //Ask user to input number of terms 
-    printf("Enter the number of terms:\n");
+    int count, first_term = 0, second_term = 1, next_term, i; 
+    clrscr();
+    printf("Enter the number of terms:\n");     //Ask user to input number of terms
     scanf("%d",&count);
  
     printf("First %d terms of Fibonacci series:\n",count);
@@ -22,4 +22,5 @@ int main()
     }
  
     return 0;
+    getch();
 }
