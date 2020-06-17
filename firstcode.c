@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
     int count, first_term = 0, second_term = 1, next_term, i; 
     clrscr();
@@ -21,7 +21,6 @@ int main()
        }
        printf("%d\n",next_term);     //output 
     }
- 
-    return 0;
+
     getch();
 }
