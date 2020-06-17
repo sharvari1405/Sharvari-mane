@@ -4,7 +4,8 @@ int main()
 {
     int count, first_term = 0, second_term = 1, next_term, i; 
     clrscr();
-    printf("Enter the number of terms:\n");     //Ask user to input number of terms
+    //Ask user to input number of terms
+    printf("Enter the number of terms:\n");     
     scanf("%d",&count);
  
     printf("First %d terms of Fibonacci series:\n",count);
@@ -18,7 +19,7 @@ int main()
           first_term = second_term;
           second_term = next_term;
        }
-       printf("%d\n",next_term);
+       printf("%d\n",next_term);     //output 
     }
  
     return 0;
